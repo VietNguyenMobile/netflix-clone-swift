@@ -12,6 +12,10 @@
 		FA5C2EE62B9061EC00A9532C /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C2EE52B9061EC00A9532C /* MainTabBarViewController.swift */; };
 		FA5C2EEB2B9061EF00A9532C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5C2EEA2B9061EF00A9532C /* Assets.xcassets */; };
 		FA5C2EEE2B9061EF00A9532C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5C2EEC2B9061EF00A9532C /* LaunchScreen.storyboard */; };
+		FA5C2EF72B90663A00A9532C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C2EF62B90663A00A9532C /* HomeViewController.swift */; };
+		FA5C2EF92B90668200A9532C /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C2EF82B90668200A9532C /* UpcomingViewController.swift */; };
+		FA5C2EFB2B9066BA00A9532C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C2EFA2B9066BA00A9532C /* SearchViewController.swift */; };
+		FA5C2EFD2B9066E900A9532C /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C2EFC2B9066E900A9532C /* DownloadsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		FA5C2EEA2B9061EF00A9532C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA5C2EED2B9061EF00A9532C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA5C2EEF2B9061EF00A9532C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5C2EF62B90663A00A9532C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FA5C2EF82B90668200A9532C /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		FA5C2EFA2B9066BA00A9532C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		FA5C2EFC2B9066E900A9532C /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 		FA5C2EE02B9061EC00A9532C /* Netflix Clone */ = {
 			isa = PBXGroup;
 			children = (
+				FA5C2EF52B90660D00A9532C /* Controllers */,
 				FA5C2EE12B9061EC00A9532C /* AppDelegate.swift */,
 				FA5C2EE32B9061EC00A9532C /* SceneDelegate.swift */,
 				FA5C2EE52B9061EC00A9532C /* MainTabBarViewController.swift */,
@@ -62,6 +71,17 @@
 				FA5C2EEF2B9061EF00A9532C /* Info.plist */,
 			);
 			path = "Netflix Clone";
+			sourceTree = "<group>";
+		};
+		FA5C2EF52B90660D00A9532C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA5C2EF62B90663A00A9532C /* HomeViewController.swift */,
+				FA5C2EF82B90668200A9532C /* UpcomingViewController.swift */,
+				FA5C2EFA2B9066BA00A9532C /* SearchViewController.swift */,
+				FA5C2EFC2B9066E900A9532C /* DownloadsViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5C2EFB2B9066BA00A9532C /* SearchViewController.swift in Sources */,
 				FA5C2EE62B9061EC00A9532C /* MainTabBarViewController.swift in Sources */,
+				FA5C2EFD2B9066E900A9532C /* DownloadsViewController.swift in Sources */,
 				FA5C2EE22B9061EC00A9532C /* AppDelegate.swift in Sources */,
 				FA5C2EE42B9061EC00A9532C /* SceneDelegate.swift in Sources */,
+				FA5C2EF92B90668200A9532C /* UpcomingViewController.swift in Sources */,
+				FA5C2EF72B90663A00A9532C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
